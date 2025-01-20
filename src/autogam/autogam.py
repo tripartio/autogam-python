@@ -74,7 +74,7 @@ def gam_formula(
     -------
     str
         A formula string of the form "y_col ~ x1 + s(x2) + ...",
-        with columns processed in the order they appear in data.
+        with columnns processed in the order they appear in data.
     """
     default_df = 10  # mgcv default k
     default_degree = 3  # default from example in https://www.statsmodels.org/stable/gam.html
